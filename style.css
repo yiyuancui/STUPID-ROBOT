@@ -1,5 +1,5 @@
 body{
-  background-image: url('https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
+  background-image: url('https://lh3.googleusercontent.com/z72YfGBGES1ameNXQ5d52xbmOopeg22oP9kXoSkpzihgzNOJVSjN4Af79Ctw1he2OyriSunQfT8pVkW5DC4EGxybeRWOLC9ZkijkAFE8jmCkY6wa5Bn-rIM0D8DyJPxqE1uj-I9s=w2400'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body{
     overflow: hidden;
     padding: 0rem;
     margin: 0rem;
-    background-image: linear-gradient(-45deg, #252d48 10%, #303e6a 50%, #27323d 100%);  
+    background-image: linear-gradient(-45deg, #252d48 38%, #303e6a 38%, #27323d 70%);  
 }
   
 
