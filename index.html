@@ -14,7 +14,7 @@
 <!--   *********************  HEADING START *********************   --> 
     
     <div class="heading">
-      <h3 class='name'>Yiyuan Cui <br> Corey Lay<br>Fahad Alkhazam<br>Abhi Sachdeva</h3> 
+      <h2 class='name'>Yiyuan Cui <br> Corey Lay<br>Fahad Alkhazam<br>Abhi Sachdeva</h2> 
             
       <h1>ECE 5 Group SR's Website</h1> <!-- h1 is heading 1 -->
     </div>
@@ -32,16 +32,17 @@
         line following robot which will intake photorresistor values and change PID values to control
         The Robot.
       </p1> 
-      
       <br><br>
       
-      <p1>Robot Poster(Will be updated with more process)</p1> 
-      
-      <br><br>
-      
-      <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
-       
-      <br><br>
+    
+      <div class ='center'>
+        <button type='button' onclick="toggleText7()" class="btn">Fianl Robot With Annotation</button>
+      </div>
+      <div class="interactive" id='interactive7' style='display: none'>
+        <div class ='center'>
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src ='https://lh3.googleusercontent.com/UR5zbAXpA58LjGIOAzeGn1NODGEdXWmUwrCn9VXmFTYAR6r6S1CjXKQuSmIvpEJ-ifnt6of4y5BJHGotM6ta-g71EQ4zt1cbikbbEAgRZg0E5d7ru5uPC5lE-OosBDci0hwVZRaR=w2400' width = '400' height = '600' class='imgmar'> </iframe>
+      </div> <!-- This is the end of div box1 -->
+      </div>
 <!--   *********************  INTRO END *********************   --> 
       
 <!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
@@ -90,34 +91,7 @@
             </p>
         </div> <!-- This is the end of div box1 -->
       </div> <!-- This is the end of div interactive -->
-      
-<!----------------------------------------  BUTTON 2 ---------------------------------------->
-        
-      <div class ='center'> <!-- we put the buton in a container to center it -->
-        <button type='button' onclick="toggleText2()" class="btn">Challenge #1D</button>
-      </div> <!--end of div class center -->
-      
-      <div class="interactive" id='interactive2' style='display: none'>
-        <div class='box1'>
-          <br>
           
-          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
-            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
-            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
-            <br>
-            <p2>IMG1 Add a screenshot of your solidworks chasis model <br> 
-              IMG2 Add picture of your 3D printed chasis</p2>
-            <br><br>
-          
-          <p class='box2'>
-            Explain what you have created, what functional modifications (need at least 2) 
-            you made to the design and add a picture of your 3D printed chassis. 
-            <br><br>
-            &emsp; Answer here...
-          </p> <!-- p is paragraph -->
-        </div> <!-- This is the end of div interactive -->
-      </div> <!-- This is the end of div box1 -->
-      
 <!----------------------------------------  BUTTON 3 ---------------------------------------->
       
       <div class ='center'>
@@ -149,55 +123,46 @@
 <!----------------------------------------  BUTTON 4 ----------------------------------------> 
       
       <div class ='center'>
-        <button type='button' onclick="toggleText4()" class="btn">Challenge #6 & #7</button>
+        <button type='button' onclick="toggleText4()" class="btn">Robot assembled and following line with new 3d printed parts</button>
       </div> <!--end of div class center -->
-            
+
+
       <div class="interactive" id='interactive4' style='display: none'>
-        <div class='box1'>
-          <br>
           
-            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
-            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
-            <br>
-            <p2>IMG1 Add a picture of your fully assembled robot with all components and circuitry</p2>
-           <br><br>
-          
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3XctxanadNU"> </iframe>
           <p class='box2'>
-            Challenge #7: Explain why you need to calibrate your photoresistor values. 
+            Explain why you need to calibrate your photoresistor values. 
             What problem does this help solve and what problems do you still see coming from your photoresistors?  
             <br><br>
-            &emsp; Answer here...
+            &emsp; So that we can use the code to determine where the black line is and where the robot should go or how the motors should turn
+          .One of the ways to improve the value coming from photoresistors is to add a light shield. And currently the light shield we have is not very good. But it could get the job done.
           </p> <!-- p is paragraph -->
-        </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
       
 <!----------------------------------------  BUTTON 5 ---------------------------------------->
       
       <div class ='center'>
-        <button type='button' onclick="toggleText5()" class="btn">Challenge #8</button>
+        <button type='button' onclick="toggleText5()" class="btn">Video of robot running in circles</button>
       </div> <!--end of div class center -->
             
       <div class="interactive" id='interactive5' style='display: none'>
         <div class='box1'>
           <br>
           
-            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/3XctxanadNU"> </iframe>
             <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
-            <br>
-            <p2>IMG1 Add a picture of your robot following a line 
-              (please also attach any updated video to your submission under the video tab)</p2>
-            <br><br> 
           
           <p class='box2'>
             What was the best PID values that you used? How well did this track? Any limitations?
             <br><br>
-            &emsp; Answer here...
+            &emsp; The PID for making this run. I turn the S value to a small value(20-30) and P,I,D also vert low. The P value is around 30-50, I = 0, D = 10-25;
             <br><br><br>
             What does PID stand for?  What is the purpose of the P, the I, and the D?  
             What steps did you take to choose the best values for your robot? 
             Explain this like you would for someone taking this course next year.
             <br><br>
-            &emsp; Answer here...
+            &emsp; P value determines how fast a turn our robot would make, I value doesn't really make a huge effect on our robot, so I just turned it off. D value determines how each
+            motor would react when making a turn.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -205,16 +170,16 @@
 <!----------------------------------------  BUTTON 6 ---------------------------------------->
       
       <div class ='center'>
-        <button type='button' onclick="toggleText6()" class="btn">Video</button>
+        <button type='button' onclick="toggleText6()" class="btn">Final competition Video with improved light shield</button>
       </div> <!--end of div class center -->
       
       <div class="interactive" id='interactive6' style='display: none'>
         <div class='box1'>
           <br>
           <p class='box2'>
-            Insert a video of your robot in action!
+            The video of our robot completing the final challenge of running in circles in 2 mins period.
           </p> <!-- p is paragraph -->
-          <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/S_MvWSyKs5s"></iframe>
             <br>
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -281,6 +246,15 @@
     
     function toggleText6(text) {
       var text = document.getElementById("interactive6");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+    function toggleText7(text) {
+      var text = document.getElementById("interactive7");
       if (text.style.display === "none") {
         text.style.display = "block";
       } else {
